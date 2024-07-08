@@ -82,7 +82,7 @@ body{
 .night-party{
     width:1082px;
     height:480px;
-    border:2px solid red;
+    
     margin:0 auto;
     margin-top:100px;
     margin-bottom:100px;
@@ -148,4 +148,167 @@ padding-right:430px;
     
     margin:55px 110px 55px 40px;
 }
+/* location part style  */
+.location-container{
+    width:1082px;
+    height:430px;
+    border-radius:12px;
+    background-color:rgb(209, 217, 215);
+    
+    margin-top:110px;
+    margin:0 auto;
+    margin-bottom:110px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.location{
+    font-size: 30px;
+    font-weight: 600;
+    
+    line-height:50px;
+    
+}
+.btn{
+    
+    color: rgb(255, 0, 0);
+}
+.btn-primary{
+    font-size:20px;
+    font-weight:700;
+    background-color: rgb(255, 0, 0);
+    padding:11px 22px 11px 22px;
+    color:white;
+    margin-top:50px;
+    margin-left:200px;
+    border:none;
+}
+.location-content h3{
+    text-align: center;
+}
+/* commoing party */
+.offer-title{
+    color: rgb(255, 0, 0);
+    
+    font-size: 20px;
+    font-weight: 500;
+}
+.offer-sub-title{
+    color: rgb(7, 2, 17);
+    font-size: 40px;
+    font-weight: 900;
+}
+.offer-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+.year{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.offer{
+    width:1082px;
+    height:430px;
+    margin:0 auto;
+    display: flex;
+    margin-bottom:100px;
+
+
+}
+.offer-content{
+    width:380px;
+    height:430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.goal-pic{
+    width:380px;
+    height:430px;
+    
+    
+}
+.goal-pic img{
+    height:100%;
+    width:100%;
+}
+.lost-year{
+    width:322px;
+    height:430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+/* holiday style part */
+.holiday-content{
+    text-align:center;
+    
+}
+.holiday-title{
+    color: rgb(7, 2, 17);
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.holiday-sub-title{
+    font-size: 40px;
+    font-weight: 900;
+
+}
+.holiday-description{
+    color: rgba(7, 2, 17, 0.6);
+    font-size: 17px;
+    font-weight: 500;
+
+}
+.red{
+ color: rgb(255, 0, 0);
+}
+.holiday{
+    width:1082px;
+    height:670px;
+    border:2px solid red;
+    margin:0 auto;
+    margin-bottom:100px;
+    position: relative;
+    
+
+}
+.solid-color{
+    width:1082px;
+    height:150px;
+    background-color: #FF0000;
+    position: absolute;
+    top:79%;
+    
+}
+.light-pic{
+    width:550px;
+    height:500px;
+    position:relative;
+}
+.light-pic img{
+    width:100%;
+    height:100%;
+}
+.discount-image{
+    position: absolute;
+    bottom:30%;
+    left:60%;
+}
+
     
