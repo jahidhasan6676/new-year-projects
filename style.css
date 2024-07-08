@@ -48,3 +48,33 @@ body{
     align-items:center;
     height:600px;
 }
+/* discount part style start */
+.discount-title{
+    font-weight:700;
+    font-size:80px;
+    color:rgb(255, 0, 0);
+    margin-top:100px;
+}
+.discount-description{
+    font-weight:500;
+    font-size:20px;
+    color:rgb(255, 0, 0);
+    margin-top:40px;
+}
+.discount-sub-title{
+    font-weight:700;
+    font-size:35px;
+    color:rgb(7, 2, 17);
+    margin-top:13px;
+}
+.discount-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+.happy-image{
+    width:650px;
+    margin-top:40px;
+}
